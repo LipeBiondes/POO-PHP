@@ -1,0 +1,17 @@
+<?php
+/**
+ *
+ * @author Alefe Filipe
+ */
+interface Controlador {
+    public function ligar();
+    public function deligar();
+    public function abrirMenu();
+    public function fecharMenu();
+    public function maisVolume();
+    public function menosVolume();
+    public function ligarMudo();
+    public function desligarMudo();
+    public function play();
+    public function pause();
+}
